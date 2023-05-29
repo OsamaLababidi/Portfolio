@@ -200,7 +200,7 @@ header.sticky{
 
 .projets-content{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center;
   gap: 2.5rem;
   margin-top: 5rem;
@@ -520,7 +520,7 @@ header.sticky{
 
 .post{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+  grid-template-columns: repeat(auto-fit,minmax(350px,auto));
   justify-content: center;
   gap: 1.5rem;
 }
