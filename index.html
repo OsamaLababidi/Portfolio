@@ -34,7 +34,7 @@
         </div>
         <h1>Osama Lababidi</h1>
         <h3>Etudiant 1er année</h3>
-        <p>Je m'appelle Osama Lababidi, je suis étudiant en première année à <a href="https://iut2.univ-grenoble-alpes.fr/">l'IUT2</a> de Grenoble. J'ai 19 ans et je suis passionné par l'informatique. Pour en savoir plus, cliquez sur le bouton.</p>
+        <p>Je m'appelle Osama Lababidi, je suis étudiant en première année à <a href="https://iut2.univ-grenoble-alpes.fr/">l'IUT2</a> de Grenoble. J'ai 19 ans et je suis passionné par l'informatique ...</p>
         <a href="qui-suis-je.html" class="btn">Plus à propos de moi</a>
       </div>
       <img src="./img/img_p.jpg" alt="photo">
@@ -116,7 +116,9 @@
 
          <!--CODE 3--> 
          <div class="post-box fini" style="padding-top:0;">
-          <a href="post-page-linux.html"><img src="./img/Linux.jpg" alt="" width="320px"></a>
+          <a href="post-page-linux.html">
+            <img class="post-image" src="./img/Linux.jpg" alt="" width="320px">
+          </a>
           <h2 class="category">Fini</h2>
           <a href="post-page-linux.html" class="post-title">
           Installation d'un post de travail
@@ -126,7 +128,9 @@
         </div>
          <!--CODE 2--> 
          <div class="post-box fini">
-          <a href="post-page-base.html"><img src="./img/Bateau.jpg" alt="" width="320px"></a>
+          <a href="post-page-base.html">
+            <img class="post-image" src="./img/Bateau.jpg" alt="" width="320px">
+          </a>
           <h2 class="category">Fini</h2>
           <a href="post-page-base.html" class="post-title">
           Titanic
@@ -136,7 +140,9 @@
         </div>  
          <!--CODE 2--> 
          <div class="post-box fini">
-          <a href="post-page-java.html"><img src="./img/Java.jpg" alt="" width="320px"></a>
+          <a href="post-page-java.html">
+            <img class="post-image"  src="./img/Java.jpg" alt="" width="320px">
+          </a>
           <h2 class="category">Fini</h2>
           <a href="post-page-java.html" class="post-title">
           Classificateur automatique
@@ -146,7 +152,8 @@
         </div>      
   <!--CODE 1--> 
       <div class="post-box fini">
-        <a href="post-page-IBM.html"><img src="./img/ibm.png" alt="" width="320px"></a>
+        <a href="post-page-IBM.html">
+          <img class="post-image" src="./img/ibm.png" alt="" width="320px"></a>
         <h2 class="category">Fini</h2>
         <a href="post-page-IBM.html" class="post-title">
         IBM
@@ -157,7 +164,9 @@
 
          <!--CODE 3--> 
          <div class="post-box fini">
-          <a href="post-page-BD.html"><img src="./img/bd.png" alt="" width="320px"></a>
+          <a href="post-page-BD.html">
+            <img class="post-image" src="./img/bd.png" alt="" width="320px">
+          </a>
           <h2 class="category">Fini</h2>
           <a href="post-page-BD.html" class="post-title">
           Accident de la route
@@ -166,17 +175,20 @@
           <p class="post-description">Exploration d'une base de données pour prendre des informations utiles sur les accidents de la route</p>
         </div>
   <!--CODE 1--> 
+  <div class="post-box enCours">
+    <a href="post-page-reseau.html">
+      <img class="post-image" src="./img/Reseaux.jpg" alt="" width="320px">
+    </a>
+    <h2 class="category">En cours</h2>
+    <a href="post-page-reseau.html" class="post-title">Installation d'un service réseau</a>
+    <span class="post-date">02/05/2023 - 14/06/2023</span>
+    <p class="post-description">Installation d'une machine Debian avec des services réseaux permettant</p>
+  </div>
+  
                 <div class="post-box enCours">
-                  <a href="post-page-reseau.html"><img src="./img/Reseaux.jpg" alt="" width="320px"></a>
-                  <h2 class="category">En cours</h2>
-                  <a href="post-page-reseau.html" class="post-title">
-                  Installation d'un service réseau
+                  <a href="post-page-mega.html">
+                    <img class="post-image"  src="./img/gestionEvent.png" alt="" width="320px">
                   </a>
-                  <span class="post-date">02/05/2023 - 14/06/2023</span>
-                  <p class="post-description">Installation d'une machine Debian avec des services réseaux permettant </p>
-                </div>
-                <div class="post-box enCours">
-                  <a href="post-page-mega.html"><img src="./img/gestionEvent.png" alt="" width="320px"></a>
                   <h2 class="category">En cours</h2>
                   <a href="post-page-mega.html" class="post-title">
                   Gérer des événements
@@ -204,11 +216,11 @@
     </div>
       <div class="contact-form">
         <form action="">
-          <input type="prénom" placeholder="Ton Prénom" required>
-          <input type="email" placeholder="Ton Adresse Email" required>
-          <input type="tel" placeholder="Ton Numéro De Téléphone" required>
-          <textarea name="" id="" cols="35" rows="10" placeholder="Comment puis-je vous aider" required></textarea>
-          <input type="submit" value="Envoyez Un Message" class ="submit" required>
+          <input type="prénom" placeholder="Prénom" required>
+          <input type="email" placeholder="Adresse Email" required>
+          <input type="tel" placeholder="Numéro De Téléphone" required>
+          <textarea name="" id="" cols="35" rows="10" placeholder="Contenu" required></textarea>
+          <input type="submit" value="Envoyer" class ="submit" required>
         </form>
       </div>
     </section>
@@ -225,6 +237,24 @@
   </section>
   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="./javascript/index.js"></script>
+    <script>
+// Sélectionner tous les éléments d'image avec la classe "post-image"
+var postImages = document.querySelectorAll('.post-image');
+
+// Parcourir tous les éléments d'image et ajouter des gestionnaires d'événements
+postImages.forEach(function(image) {
+  image.addEventListener('mouseover', function() {
+    this.style.transform = 'scale(0.8)'; // Ajustez la valeur pour l'agrandissement souhaité
+    this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+  });
+
+  image.addEventListener('mouseout', function() {
+    this.style.transform = 'scale(1)'; // Revenir à la taille normale
+    this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+  });
+});
+
+    </script>
   </body>
 
 </html>

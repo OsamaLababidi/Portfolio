@@ -545,8 +545,9 @@ header.sticky{
   height: 300px;
   object-fit: cover;
   object-position: center;
-  border-radius: 0.5rem
+  border-radius: 0.5rem;
 }
+
 .category{
   font-size: 0.9rem;
   font-weight: 500;
