@@ -28,24 +28,54 @@
         <div class="header-content post-container">
             <a href="index.html" class="btn">Repartir au Portfolio</a>
             <h1 class="header-title">Titanic</h1>
-            <img src="./img/Bateau.jpg" alt="" class="header-img">
+            <div class="image-retouche">
+            <button onclick="togglePopup()"><img src="./img/Bateau.jpg" alt="" class="header-img"></button>
+            <button onclick="togglePopupp()"><img src="./img/base-donnee-base" alt="" class="header-img"></button>
+            <button onclick="togglePopuppp()"><img src="./img/nsi_prem_projet_titanic_1.png" alt="" class="header-img"></button>
+            <button onclick="togglePopupppp()"><img src="./img/titanic-suite.png" alt="" class="header-img"></button>
+          </div>
+            <div id="popup-overlay">
+              <div class="popup-content">               
+            <img src="./img/Bateau.jpg" alt="" class="header-img-popup">
+            <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit">Fermer</a>
+          </div>
+        </div>
+          <div id="popup-overlay-two">
+            <div class="popup-content">               
+          <img src="./img/base-donnee-base" alt="" class="header-img-popup">
+          <a href="javascript:void(0)" onclick="togglePopupp()" class="popup-exit">Fermer</a>
+        </div>
+      </div>
+        <div id="popup-overlay-tree">
+          <div class="popup-content">               
+        <img src="./img/nsi_prem_projet_titanic_1.png" alt="" class="header-img-popup">
+        <a href="javascript:void(0)" onclick="togglePopuppp()" class="popup-exit">Fermer</a>
+      </div>
+    </div>
+      <div id="popup-overlay-four">
+        <div class="popup-content">               
+      <img src="./img/titanic-suite.png" alt="" class="header-img-popup">
+      <a href="javascript:void(0)" onclick="togglePopupppp()" class="popup-exit">Fermer</a>
+    </div>
+  </div>
         </div>
     </section>
 
     <section class="post-content post-container">
       <h3 class="sub-heading">Projet : </h3>
-      <p class="post-text">SAE1.04 - Étude des facteurs ayant influencé le désastre du naufrage du Titanic</p>
+      <p class="post-text">SAE1.04 - Étude des <B style="color: purple; font-weight: bold;">facteurs</B> ayant influencé le désastre du naufrage du <B style="color: purple; font-weight: bold;">Titanic</B></p>
       <h3 class="sub-heading">Objectif : </h3>
-      <p class="post-text">L'objectif de ce projet était de mener une recherche approfondie dans une base de données afin d'identifier les différents facteurs qui ont joué un rôle dans le naufrage du Titanic.</p>
+      <p class="post-text">L'objectif de ce projet était de mener une <B style="color: purple; font-weight: bold;">recherche</B> approfondie dans une <B style="color: purple; font-weight: bold;">base de données</B> afin d'identifier les différents <B style="color: purple; font-weight: bold;">facteurs</B> qui ont joué un rôle dans le naufrage du <B style="color: purple; font-weight: bold;">Titanic</B>.</p>
      <h3 class="sub-heading">Description : </h3>
-     <p class="post-text">Ce projet a été réalisé en binôme sur une durée totale de trois semaines : 12/12/2022 - 26/12/2022 , avec des séances de cours de quatre heures chacune, soit un total de douze heures dédiées à ce projet. La SAE (Situation d'Apprentissage et d'Évaluation) nous a fourni une base de données existante, que nous devions explorer et analyser.</p>
+     <p class="post-text">Ce <B style="color: purple; font-weight: bold;">projet</B> a été réalisé en <B style="color: purple; font-weight: bold;">binôme</B> sur une durée totale de <B style="color: purple; font-weight: bold;">trois semaines</B> : 12/12/2022 - 26/12/2022 , avec des séances de cours de quatre heures chacune, soit un total de <B style="color: purple; font-weight: bold;">douze heures</B> dédiées à ce <B style="color: purple; font-weight: bold;">projet</B>. La SAE (Situation d'Apprentissage et d'Évaluation) nous a fourni une base de données existante, que nous devions explorer et analyser.</p>
       <h3 class="sub-heading">Réalisation : </h3>
-        <p class="post-text">Au cours de la première semaine, nous avons effectué une analyse du contexte, en menant des recherches approfondies sur Internet afin de mieux comprendre le contexte du naufrage du Titanic et les facteurs qui y ont contribué. Nous avons également examiné attentivement la structure de la base de données fournie, en étudiant les différentes tables et les données qu'elles contenaient. À partir de ces informations, nous avons élaboré une maquette détaillant les tables essentielles pour notre projet.
-          La deuxième semaine a été consacrée à la création des schémas relationnels et à la mise en place des tables nécessaires pour nos recherches. Nous avons effectué des tests pour vérifier le bon fonctionnement des tables et avons apporté des ajustements aux schémas relationnels au besoin. Une fois cette étape terminée, nous avons procédé à l'implémentation des tables et avons commencé à effectuer nos premières requêtes.
-          Enfin, lors de la troisième semaine, nous avons réalisé différentes requêtes pour obtenir des données supplémentaires sur les facteurs qui ont influencé le naufrage du Titanic. Nous avons synthétisé nos résultats dans un rapport de recherche en anglais.
-          </p>
+        <p class="post-text">Au cours de la <B style="color: purple; font-weight: bold;">première</B> semaine, nous avons effectué une <B style="color: purple; font-weight: bold;">analyse du contexte</B>, en menant des recherches approfondies sur <B style="color: purple; font-weight: bold;">Internet</B> afin de mieux comprendre le <B style="color: purple; font-weight: bold;">contexte</B> du naufrage du <B style="color: purple; font-weight: bold;">Titanic</B> et les facteurs qui y ont contribué. Nous avons également <B style="color: purple; font-weight: bold;">examiné</B> attentivement la structure de la <B style="color: purple; font-weight: bold;">base de données</B> fournie, en étudiant les différentes <B style="color: purple; font-weight: bold;">tables</B> et les données qu'elles contenaient. À partir de ces <B style="color: purple; font-weight: bold;">informations</B>, nous avons <B style="color: purple; font-weight: bold;">élaboré une maquette</B> détaillant les <B style="color: purple; font-weight: bold;">tables essentielles</B> pour notre <B style="color: purple; font-weight: bold;">projet</B>.
+          La <B style="color: purple; font-weight: bold;">deuxième</B> semaine a été consacrée à la <B style="color: purple; font-weight: bold;">création des schémas relationnels</B> et à la mise en place des <B style="color: purple; font-weight: bold;">tables nécessaires</B> pour nos <B style="color: purple; font-weight: bold;">recherches</B>. Nous avons effectué des <B style="color: purple; font-weight: bold;">tests</B> pour vérifier le bon <B style="color: purple; font-weight: bold;">fonctionnement des tables</B> et avons apporté des ajustements aux <B style="color: purple; font-weight: bold;">schémas relationnels</B> au besoin. Une fois cette <B style="color: purple; font-weight: bold;">étape terminée</B>, nous avons procédé à <B style="color: purple; font-weight: bold;">l'implémentation des tables</B> et avons commencé à effectuer nos <B style="color: purple; font-weight: bold;">premières requêtes</B>.
+          <B style="color: purple; font-weight: bold;">Enfin</B>, lors de la <B style="color: purple; font-weight: bold;">troisième</B> semaine, nous avons réalisé <B style="color: purple; font-weight: bold;">différentes requêtes</B> pour obtenir des <B style="color: purple; font-weight: bold;">données supplémentaires</B> sur les <B style="color: purple; font-weight: bold;">facteurs</B> qui ont influencé le naufrage du <B style="color: purple; font-weight: bold;">Titanic</B>. Nous avons <B style="color: purple; font-weight: bold;">synthétisé</B> nos résultats dans un <B style="color: purple; font-weight: bold;">rapport de recherche en anglais.</B>
+          Nous avons pu finir tout le projet dans les temps.   
+        </p>
         <h3 class="sub-heading">Bilan : </h3>
-        <p class="post-text">Ce projet nous a permis d'améliorer diverses compétences, notamment des compétences comportementales telles que l'autonomie, l'adaptabilité, le travail d'équipe et la flexibilité. Il m'a notamment permit de m'améliorer sur les requêtes sql sur le langage PostgreSQL</p>
+        <p class="post-text">Ce projet nous a permis d'<B style="color: purple; font-weight: bold;">améliorer</B> <B style="color: purple; font-weight: bold;">diverses compétences</B>, notamment des <B style="color: purple; font-weight: bold;">compétences comportementales</B> telles que l'autonomie, l'adaptabilité, le travail d'équipe et la flexibilité. Il m'a notamment permit de m'<B style="color: purple; font-weight: bold;">améliorer</B> sur les requêtes <B style="color: purple; font-weight: bold;">SQL</B> dans le langage <B style="color: purple; font-weight: bold;">PostgreSQL</B></p>
     </section>
     
 
@@ -67,5 +97,25 @@
       </div>
     </section>
       <script src="./javascript/index.js"></script>
+      <script>
+        // Sélectionner tous les boutons contenant des images avec la classe "image-retouche"
+        var buttons = document.querySelectorAll('.image-retouche button');
+        
+        // Parcourir tous les boutons et ajouter des gestionnaires d'événements aux images à l'intérieur
+        buttons.forEach(function(button) {
+          var image = button.querySelector('img');
+        
+          image.addEventListener('mouseover', function() {
+            this.style.transform = 'scale(0.8)'; // Ajustez la valeur pour l'agrandissement souhaité
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        
+          image.addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)'; // Revenir à la taille normale
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        });
+        </script>
+        
     </body>
 </html>

@@ -28,21 +28,50 @@
         <div class="header-content post-container">
             <a href="index.html" class="btn">Repartir au Portfolio</a>
             <h1 class="header-title">Installation d'un post de développement</h1>
-            <img src="./img/Linux.jpg" alt="" class="header-img">
+            <div class="image-retouche">
+              <button onclick="togglePopup()"><img src="./img/Linux.jpg" alt="" class="header-img"></button>
+              <button onclick="togglePopupp()"><img src="./img/linux-deuxieme.png" alt="" class="header-img"></button>
+              <button onclick="togglePopuppp()"><img src="./img/linux_troisieme.png" alt="" class="header-img"></button>
+              <button onclick="togglePopupppp()"><img src="./img/linux_quatrieme.png" alt="" class="header-img"></button>
+            </div>
+              <div id="popup-overlay">
+                <div class="popup-content">               
+              <img src="./img/Linux.jpg" alt="" class="header-img-popup">
+              <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit">Fermer</a>
+            </div>
+          </div>
+            <div id="popup-overlay-two">
+              <div class="popup-content">               
+            <img src="./img/linux-deuxieme.png" alt="" class="header-img-popup">
+            <a href="javascript:void(0)" onclick="togglePopupp()" class="popup-exit">Fermer</a>
+          </div>
         </div>
+          <div id="popup-overlay-tree">
+            <div class="popup-content">               
+          <img src="./img/linux_troisieme.png" alt="" class="header-img-popup">
+          <a href="javascript:void(0)" onclick="togglePopuppp()" class="popup-exit">Fermer</a>
+        </div>
+      </div>
+        <div id="popup-overlay-four">
+          <div class="popup-content">               
+        <img src="./img/linux_quatrieme.png" alt="" class="header-img-popup">
+        <a href="javascript:void(0)" onclick="togglePopupppp()" class="popup-exit">Fermer</a>
+      </div>
+    </div>
+  </div>
     </section>
 
     <section class="post-content post-container">
       <h3 class="sub-heading">Projet : </h3>
-      <p class="post-text">SAE1.03 – Installation d'un poste de développement</p>
+      <p class="post-text">SAE1.03 – <B style="color: purple; font-weight: bold;">Installation</B> d'un <B style="color: purple; font-weight: bold;">poste</B> de <B style="color: purple; font-weight: bold;">développement</B></p>
       <h3 class="sub-heading">Objectif : </h3>
-      <p class="post-text">L'objectif principal de ce projet était de procéder à l'installation d'un poste de travail complet et des outils de développement nécessaires.</p>
+      <p class="post-text">L'objectif principal de ce <B style="color: purple; font-weight: bold;">projet</B> était de procéder à <B style="color: purple; font-weight: bold;">l'installation</B> d'un <B style="color: purple; font-weight: bold;">poste de travail complet</B> et des <B style="color: purple; font-weight: bold;">outils de développement</B> nécessaires.</p>
      <h3 class="sub-heading">Description : </h3>
-     <p class="post-text">Ce projet a été réalisé de manière individuelle sur une période d'une semaine, du 24/11/2022 au 28/11/2022. La SAE (Situation d'Apprentissage et d'Évaluation) nous a fourni des ressources documentaires pour nous guider dans l'installation du poste de travail et des outils de développement.</p>
+     <p class="post-text">Ce <B style="color: purple; font-weight: bold;">projet</B> a été réalisé de manière <B style="color: purple; font-weight: bold;">individuelle</B> sur une période d'une <B style="color: purple; font-weight: bold;">semaine</B>, du 24/11/2022 au 28/11/2022. La SAE (Situation d'Apprentissage et d'Évaluation) nous a <B style="color: purple; font-weight: bold;">fourni</B> des <B style="color: purple; font-weight: bold;">ressources documentaires</B> pour nous <B style="color: purple; font-weight: bold;">guider</B> dans l'installation du <B style="color: purple; font-weight: bold;">poste de travail</B> et des <B style="color: purple; font-weight: bold;">outils de développement</B>.</p>
       <h3 class="sub-heading">Réalisation : </h3>
-        <p class="post-text">Durant cette semaine, j'ai commencé par installer un environnement de travail sur une machine virtuelle. Pour cela, j'ai obtenu l'image ISO de Debian et créé un disque virtuel pour allouer de l'espace à la machine virtuelle. Ensuite, j'ai procédé à l'installation du système Debian avec le bureau Plasma, en configurant la résolution, la gestion des privilèges avec sudo et le gestionnaire de paquets. Une fois ma machine installée, j'ai préparé l'environnement pour utiliser les outils snap et flatpak. Par la suite, j'ai installé JDK, GIT et effectué une opération de nettoyage de la machine. Une fois ces applications installées, mon poste de travail était opérationnel avec les outils de développement nécessaires. J'ai également réalisé une carte mentale qui servira de guide pour les personnes souhaitant installer un poste de travail et des outils de développement. J'ai réussi à faire tout cela en temp et en heure.</p>
+        <p class="post-text">Durant cette <B style="color: purple; font-weight: bold;">semaine</B>, j'ai commencé par <B style="color: purple; font-weight: bold;">installer un environnement de travail</B> sur une <B style="color: purple; font-weight: bold;">machine virtuelle</B>. Pour cela, j'ai obtenu <B style="color: purple; font-weight: bold;">l'image ISO</B> de <B style="color: purple; font-weight: bold;">Debian</B> et créé un <B style="color: purple; font-weight: bold;">disque virtuel</B> pour allouer de <B style="color: purple; font-weight: bold;">l'espace</B> à la <B style="color: purple; font-weight: bold;">machine virtuelle</B>. Ensuite, j'ai procédé à <B style="color: purple; font-weight: bold;">l'installation</B> du système <B style="color: purple; font-weight: bold;">Debian</B> avec le bureau <B style="color: purple; font-weight: bold;">Plasma</B>, en configurant la résolution, la<B style="color: purple; font-weight: bold;"> gestion des privilèges</B> avec <B style="color: purple; font-weight: bold;">sudo</B> et le <B style="color: purple; font-weight: bold;">gestionnaire</B> de paquets. Une fois ma machine <B style="color: purple; font-weight: bold;">installée</B>, j'ai préparé <B style="color: purple; font-weight: bold;">l'environnement</B> pour utiliser les <B style="color: purple; font-weight: bold;">outils snap et flatpak</B>. Par la suite, j'ai <B style="color: purple; font-weight: bold;">installé JDK, GIT</B> et effectué une opération de <B style="color: purple; font-weight: bold;">nettoyage</B> de la <B style="color: purple; font-weight: bold;">machine</B>. Une fois ces applications <B style="color: purple; font-weight: bold;">installées</B>, mon poste de <B style="color: purple; font-weight: bold;">travail</B> était <B style="color: purple; font-weight: bold;">opérationnel</B> avec les <B style="color: purple; font-weight: bold;">outils de développement</B> nécessaires. J'ai également <B style="color: purple; font-weight: bold;">réalisé une carte mentale</B> qui servira de <B style="color: purple; font-weight: bold;">guide</B> pour les personnes souhaitant <B style="color: purple; font-weight: bold;">installer</B> un <B style="color: purple; font-weight: bold;">poste de travail</B> et des <B style="color: purple; font-weight: bold;">outils de développement</B>. J'ai réussi à <B style="color: purple; font-weight: bold;">faire</B> tout cela en <B style="color: purple; font-weight: bold;">temp et en heure</B>.</p>
         <h3 class="sub-heading">Bilan : </h3>
-        <p class="post-text">Ce projet a permis d'améliorer diverses compétences, notamment des compétences comportementales telles que l'autonomie et l'adaptabilité. Il a également renforcé mes compétences techniques liées à l'installation d'un environnement de développement complet.</p>
+        <p class="post-text">Ce projet a permis <B style="color: purple; font-weight: bold;">d'améliorer</B> diverses <B style="color: purple; font-weight: bold;">compétences</B>, notamment des compétences <B style="color: purple; font-weight: bold;">comportementales</B> telles que l'autonomie et l'adaptabilité. Il a également renforcé mes <B style="color: purple; font-weight: bold;">compétences techniques</B> liées à l'installation d'un environnement de <B style="color: purple; font-weight: bold;">développement complet</B>.</p>
     
     </section>
     
@@ -65,5 +94,24 @@
       </div>
     </section>
       <script src="./javascript/index.js"></script>
+      <script>
+        // Sélectionner tous les boutons contenant des images avec la classe "image-retouche"
+        var buttons = document.querySelectorAll('.image-retouche button');
+        
+        // Parcourir tous les boutons et ajouter des gestionnaires d'événements aux images à l'intérieur
+        buttons.forEach(function(button) {
+          var image = button.querySelector('img');
+        
+          image.addEventListener('mouseover', function() {
+            this.style.transform = 'scale(0.8)'; // Ajustez la valeur pour l'agrandissement souhaité
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        
+          image.addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)'; // Revenir à la taille normale
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        });
+        </script>
     </body>
 </html>

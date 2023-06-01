@@ -507,7 +507,7 @@ header.sticky{
 
 .active-filter {
   background: purple;
-  color: lightsalmon;
+  color: var(--main-color);
   padding: 8px 16px; /* Augmentez les valeurs de remplissage */
   border-radius: 4px;
   cursor: pointer;
@@ -628,10 +628,98 @@ header.sticky{
   padding-bottom: 30px;
 }
 
+
 .header-img{
-  width: 500px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   object-position: center;
+}
+
+.image-retouche{
+display: flex;
+flex-wrap: wrap;
+width: 50%;
+justify-content: center;
+}
+.header-img:hover{
+  cursor: pointer;
+}
+#popup-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #5c2a9d;
+  display: none;
+}
+
+#popup-overlay.open{
+  display: block !important;
+}
+
+#popup-overlay-two{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #5c2a9d;
+  display: none;
+}
+#popup-overlay-two.open{
+  display: block !important;
+}
+#popup-overlay-tree{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #5c2a9d;
+  display: none;
+}
+#popup-overlay-tree.open{
+  display: block !important;
+}
+#popup-overlay-four{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #5c2a9d;
+  display: none;
+}
+#popup-overlay-four.open{
+  display: block !important;
+}
+
+
+.popup-content{
+  color: #5c2a9d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.header-img-popup{
+  width: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.popup-exit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #8E72C1;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .post-content{

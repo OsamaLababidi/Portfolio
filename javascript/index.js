@@ -47,5 +47,22 @@ $(document).ready(function(){
 
 
 
+function togglePopup(){
+  let popup = document.querySelector("#popup-overlay");
+  popup.classList.toggle("open");
+}
+function togglePopupp(){
+  let popup = document.querySelector("#popup-overlay-two");
+  popup.classList.toggle("open");
+}
+function togglePopuppp(){
+  let popup = document.querySelector("#popup-overlay-tree");
+  popup.classList.toggle("open");
+}
+
+function togglePopupppp(){
+  let popup = document.querySelector("#popup-overlay-four");
+  popup.classList.toggle("open");
+}
 
 

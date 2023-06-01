@@ -162,6 +162,12 @@
     padding-top: 20px;
   }
 
+  .one a{
+    text-decoration: underline;
+  }
+  .one a:hover{
+    color: red;
+  }
   .local{
     display: flex;
     justify-content: flex-start;
@@ -340,4 +346,3 @@
     color: var(--text-color);
     background: var(--main-color);
   }
-  

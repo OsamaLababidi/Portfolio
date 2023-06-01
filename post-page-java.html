@@ -28,24 +28,53 @@
         <div class="header-content post-container">
             <a href="index.html" class="btn">Repartir au Portfolio</a>
             <h1 class="header-title">Classification automatique</h1>
-            <img src="./img/Java.jpg" alt="" class="header-img">
+            <div class="image-retouche">
+              <button onclick="togglePopup()"><img src="./img/Java.jpg" alt="" class="header-img"></button>
+              <button onclick="togglePopupp()"><img src="./img/Screenshot_20230120_093142.png" alt="" class="header-img"></button>
+              <button onclick="togglePopuppp()"><img src="./img/Screenshot_20230120_093207.png" alt="" class="header-img"></button>
+              <button onclick="togglePopupppp()"><img src="./img/Screenshot_20230120_105538.png" alt="" class="header-img"></button>
+            </div>
+              <div id="popup-overlay">
+                <div class="popup-content">               
+              <img src="./img/Java.jpg" alt="" class="header-img-popup">
+              <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit">Fermer</a>
+            </div>
+          </div>
+            <div id="popup-overlay-two">
+              <div class="popup-content">               
+            <img src="./img/Screenshot_20230120_093142.png" alt="" class="header-img-popup">
+            <a href="javascript:void(0)" onclick="togglePopupp()" class="popup-exit">Fermer</a>
+          </div>
         </div>
+          <div id="popup-overlay-tree">
+            <div class="popup-content">               
+          <img src="./img/Screenshot_20230120_093207.png" alt="" class="header-img-popup">
+          <a href="javascript:void(0)" onclick="togglePopuppp()" class="popup-exit">Fermer</a>
+        </div>
+      </div>
+        <div id="popup-overlay-four">
+          <div class="popup-content">               
+        <img src="./img/Screenshot_20230120_105538.png" alt="" class="header-img-popup">
+        <a href="javascript:void(0)" onclick="togglePopupppp()" class="popup-exit">Fermer</a>
+      </div>
+    </div>
+    </div>
     </section>
 
     <section class="post-content post-container">
       <h3 class="sub-heading">Projet : </h3>
-      <p class="post-text">SAE1.01 - SAE1.02 : Classification automatique</p>
+      <p class="post-text">SAE1.01 - SAE1.02 : <B style="color: purple; font-weight: bold;">Classification automatique</B></p>
       <h3 class="sub-heading">Objectif : </h3>
-      <p class="post-text">Création d'un programme de classification automatique de dépêches journalistiques. Le programme doit attribuer à chaque dépêche l'une des cinq catégories suivantes : ENVIRONNEMENT-SCIENCES, CULTURE, ECONOMIE, POLITIQUE ou SPORTS.</p>
+      <p class="post-text">Création d'un programme de <B style="color: purple; font-weight: bold;">classification automatique</B> de <B style="color: purple; font-weight: bold;">dépêches journalistiques</B>. Le programme doit <B style="color: purple; font-weight: bold;">attribuer</B> à chaque <B style="color: purple; font-weight: bold;">dépêche l'une des cinq catégories</B> suivantes : ENVIRONNEMENT-SCIENCES, CULTURE, ECONOMIE, POLITIQUE ou SPORTS.</p>
      <h3 class="sub-heading">Description : </h3>
-     <p class="post-text">Ce projet a été réalisé en binôme sur une durée totale d'une semaines : 15/01/2023 - 21/01/2023. La SAE (Situation d'Apprentissage et d'Évaluation) nous a fourni une bases de code et nous a guidés à l'aide de document.Le projet comprend la rédaction d'un rapport et d'une présentation orale. </p>
+     <p class="post-text">Ce <B style="color: purple; font-weight: bold;">projet</B> a été réalisé en <B style="color: purple; font-weight: bold;">binôme</B> sur une durée totale d'une <B style="color: purple; font-weight: bold;">semaines</B> : 15/01/2023 - 21/01/2023. La SAE (Situation d'Apprentissage et d'Évaluation) nous a fourni une <B style="color: purple; font-weight: bold;">bases de code</B> et nous a <B style="color: purple; font-weight: bold;">guidés</B> à l'aide de document.Le projet comprend la <B style="color: purple; font-weight: bold;">rédaction d'un rapport et d'une présentation orale</B>. </p>
       <h3 class="sub-heading">Réalisation : </h3>
         <p class="post-text">
-          Nous sommes parvenus à mettre en place un classificateur automatique en utilisant une approche méthodique. Tout d'abord, nous avons acquis une compréhension approfondie des principes de fonctionnement du programme ainsi que des formats de fichiers requis. Notre programme est spécifiquement conçu pour les fichiers de type texte (.txt). Par la suite, nous avons organisé notre travail en assignant des tâches spécifiques à chaque membre de l'équipe, répartissant ainsi équitablement la charge de travail. Nous avons développé plusieurs programmes, dont un chargement en mémoire et l'accès aux lexiques, un autre pour le calcul du score d'une dépêche pour une catégorie, un troisième pour la recherche de la catégorie avec le score maximal, et enfin la création d'un fichier de réponses. Nous avons minutieusement testé ces méthodes et amélioré nos résultats.
-Dans un deuxième temps, nous avons travaillé à rendre notre code applicable de manière générale à tous les fichiers de type texte, en optimisant notre approche. Par la suite, nous avons rédigé un rapport en anglais et réalisé une présentation orale pour présenter nos résultats. Malheureusement, nous n'avons pas pu achever l'intégralité du programme dans les délais impartis. Il nous reste encore quelques optimisations à effectuer et des ajustements de code à apporter. Cependant, à l'exception de ces points en suspens, l'ensemble du programme fonctionne correctement
+          Nous sommes parvenus à mettre en place un <B style="color: purple; font-weight: bold;">classificateur automatique</B> en utilisant une <B style="color: purple; font-weight: bold;">approche méthodique</B>. Tout d'abord, nous avons <B style="color: purple; font-weight: bold;">acquis</B> une <B style="color: purple; font-weight: bold;">compréhension approfondie</B> des principes de <B style="color: purple; font-weight: bold;">fonctionnement</B> du <B style="color: purple; font-weight: bold;">programme</B> ainsi que des <B style="color: purple; font-weight: bold;">formats</B> de fichiers requis. Notre programme est <B style="color: purple; font-weight: bold;">spécifiquement</B> conçu pour les <B style="color: purple; font-weight: bold;">fichiers</B> de type texte (.txt). Par la suite, nous avons <B style="color: purple; font-weight: bold;">organisé</B> notre travail en <B style="color: purple; font-weight: bold;">assignant</B> des tâches <B style="color: purple; font-weight: bold;">spécifiques</B> à chaque membre de <B style="color: purple; font-weight: bold;">l'équipe</B>, répartissant ainsi <B style="color: purple; font-weight: bold;">équitablement</B> la charge de <B style="color: purple; font-weight: bold;">travail</B>. Nous avons développé plusieurs <B style="color: purple; font-weight: bold;">programmes</B>, dont un chargement en mémoire et l'accès aux lexiques, un autre pour le calcul du score d'une dépêche pour une catégorie, un troisième pour la recherche de la catégorie avec le score maximal, et enfin la <B style="color: purple; font-weight: bold;">création d'un fichier de réponses</B>. Nous avons minutieusement <B style="color: purple; font-weight: bold;">testé</B> ces méthodes et <B style="color: purple; font-weight: bold;">amélioré nos résultats</B>.
+Dans un <B style="color: purple; font-weight: bold;">deuxième</B> temps, nous avons <B style="color: purple; font-weight: bold;">travaillé</B> à rendre notre <B style="color: purple; font-weight: bold;">code applicable de manière générale</B> à tous les fichiers de <B style="color: purple; font-weight: bold;">type texte</B>, en <B style="color: purple; font-weight: bold;">optimisant</B> notre approche. Par la suite, nous avons <B style="color: purple; font-weight: bold;">rédigé</B> un <B style="color: purple; font-weight: bold;">rapport</B> en anglais et réalisé une <B style="color: purple; font-weight: bold;">présentation orale</B> pour présenter nos <B style="color: purple; font-weight: bold;">résultats</B>. Malheureusement, nous n'avons pas pu <B style="color: purple; font-weight: bold;">achever</B> l'intégralité du <B style="color: purple; font-weight: bold;">programme</B> dans les <B style="color: purple; font-weight: bold;">délais impartis</B>. Il nous reste encore quelques <B style="color: purple; font-weight: bold;">optimisations</B> à effectuer et des <B style="color: purple; font-weight: bold;">ajustements de code à apporter</B>. Cependant, à l'exception de ces points en suspens, l'ensemble du programme fonctionne correctement
 </p>
         <h3 class="sub-heading">Bilan : </h3>
-        <p class="post-text">Ce projet nous a permis d'améliorer diverses compétences, en particulier sur le plan comportemental, tels que le travail d'équipe et l'organisation. De plus, il a considérablement renforcé nos compétences en programmation Java.</p>
+        <p class="post-text">Ce projet nous a permis <B style="color: purple; font-weight: bold;">d'améliorer</B> diverses <B style="color: purple; font-weight: bold;">compétences</B>, en particulier sur le plan <B style="color: purple; font-weight: bold;">comportemental</B>, tels que le travail d'équipe et l'organisation. De plus, il a considérablement <B style="color: purple; font-weight: bold;">renforcé nos compétences en programmation Java</B>.</p>
     
     </section>
     
@@ -68,5 +97,24 @@ Dans un deuxième temps, nous avons travaillé à rendre notre code applicable d
       </div>
     </section>
       <script src="./javascript/index.js"></script>
+      <script>
+        // Sélectionner tous les boutons contenant des images avec la classe "image-retouche"
+        var buttons = document.querySelectorAll('.image-retouche button');
+        
+        // Parcourir tous les boutons et ajouter des gestionnaires d'événements aux images à l'intérieur
+        buttons.forEach(function(button) {
+          var image = button.querySelector('img');
+        
+          image.addEventListener('mouseover', function() {
+            this.style.transform = 'scale(0.8)'; // Ajustez la valeur pour l'agrandissement souhaité
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        
+          image.addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)'; // Revenir à la taille normale
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        });
+        </script>
     </body>
 </html>

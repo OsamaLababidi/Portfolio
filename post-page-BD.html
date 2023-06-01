@@ -28,21 +28,50 @@
         <div class="header-content post-container">
             <a href="index.html" class="btn">Repartir au Portfolio</a>
             <h1 class="header-title">Accident de la route</h1>
-            <img src="./img/bd.png" alt="" class="header-img">
+            <div class="image-retouche">
+              <button onclick="togglePopup()"><img src="./img/bd.png" alt="" class="header-img"></button>
+              <button onclick="togglePopupp()"><img src="./img/bd-deuxieme.png" alt="" class="header-img"></button>
+              <button onclick="togglePopuppp()"><img src="./img/bd-troisieme.png" alt="" class="header-img"></button>
+              <button onclick="togglePopupppp()"><img src="./img/bd-quatrieme.png" alt="" class="header-img"></button>
+            </div>
+              <div id="popup-overlay">
+                <div class="popup-content">               
+              <img src="./img/bd.png" alt="" class="header-img-popup">
+              <a href="javascript:void(0)" onclick="togglePopup()" class="popup-exit">Fermer</a>
+            </div>
+          </div>
+            <div id="popup-overlay-two">
+              <div class="popup-content">               
+            <img src="./img/bd-deuxieme.png" alt="" class="header-img-popup">
+            <a href="javascript:void(0)" onclick="togglePopupp()" class="popup-exit">Fermer</a>
+          </div>
         </div>
+          <div id="popup-overlay-tree">
+            <div class="popup-content">               
+          <img src="./img/bd-troisieme.png" alt="" class="header-img-popup">
+          <a href="javascript:void(0)" onclick="togglePopuppp()" class="popup-exit">Fermer</a>
+        </div>
+      </div>
+        <div id="popup-overlay-four">
+          <div class="popup-content">               
+        <img src="./img/bd-quatrieme.png" alt="" class="header-img-popup">
+        <a href="javascript:void(0)" onclick="togglePopupppp()" class="popup-exit">Fermer</a>
+      </div>
+    </div>
+  </div>
     </section>
 
     <section class="post-content post-container">
       <h3 class="sub-heading">Projet : </h3>
-      <p class="post-text">SAE2.04 - Étude sur les accidents de la route</p>
+      <p class="post-text">SAE2.04 - Étude sur les <B style="color: purple; font-weight: bold;">accidents de la route</B></p>
       <h3 class="sub-heading">Objectif : </h3>
-      <p class="post-text">Réaliser un compte rendu en anglais comprenant des statistiques sur les accidents de la route.</p>
+      <p class="post-text">Réaliser un <B style="color: purple; font-weight: bold;">compte rendu en anglais</B> comprenant des <B style="color: purple; font-weight: bold;">statistiques</B> sur les <B style="color: purple; font-weight: bold;">accidents de la route</B>.</p>
      <h3 class="sub-heading">Description : </h3>
-     <p class="post-text">Ce projet s'est étalé sur une période de 3 semaines, comprenant un total de 8 séances d'une durée totale de 16 heures. Le travail a été réalisé en binôme, et nous disposions d'une base de données préalablement fournie. Notre groupe était spécialisé dans l'analyse des accidents impliquant des mineurs (âgés de moins de 18 ans).</p>
+     <p class="post-text">Ce projet s'est étalé sur une période de <B style="color: purple; font-weight: bold;">3 semaines</B>, comprenant un total de 8 séances d'une durée totale de <B style="color: purple; font-weight: bold;">16 heures</B>. Le travail a été réalisé en <B style="color: purple; font-weight: bold;">binôme</B>, et nous disposions d'une <B style="color: purple; font-weight: bold;">base de données</B> préalablement fournie. Notre groupe était <B style="color: purple; font-weight: bold;">spécialisé</B> dans l'analyse des <B style="color: purple; font-weight: bold;">accidents</B> impliquant des <B style="color: purple; font-weight: bold;">mineurs</B> (âgés de moins de 18 ans).</p>
       <h3 class="sub-heading">Réalisation : </h3>
-        <p class="post-text">Nous avons réussi à produire un compte rendu détaillé sur les différents facteurs contribuant aux accidents impliquant des mineurs. Pour y parvenir, lors de nos 5 premières séances, nous avons exploré, nettoyé et transformé les données dont nous disposions. Une fois cette étape terminée, nous avons consacré les 3 séances suivantes à la rédaction du compte rendu en anglais et à la création de graphiques pour étayer nos conclusions. En raison de contraintes de temps, nous n'avons pas pu créer toutes les tables nécessaires lors de la première phase, c'est-à-dire lors de l'exploration, du nettoyage et de la transformation des données. Toutefois, nous avons ultérieurement reçu les tables requises afin de réaliser les graphiques.</p>
+        <p class="post-text">Nous avons réussi à produire un <B style="color: purple; font-weight: bold;">compte rendu détaillé sur les différents facteurs</B> contribuant aux <B style="color: purple; font-weight: bold;">accidents impliquant des mineurs</B>. Pour y parvenir, lors de nos <B style="color: purple; font-weight: bold;">5 premières</B> séances, nous avons <B style="color: purple; font-weight: bold;">exploré, nettoyé et transformé les données</B> dont nous<B style="color: purple; font-weight: bold;">disposions </B>. Une fois cette <B style="color: purple; font-weight: bold;">étape terminée</B>, nous avons consacré les <B style="color: purple; font-weight: bold;">3 séances</B> suivantes à la <B style="color: purple; font-weight: bold;">rédaction du compte rendu</B> en anglais et à la <B style="color: purple; font-weight: bold;">création de graphiques</B> pour étayer nos <B style="color: purple; font-weight: bold;">conclusions</B>. En raison de <B style="color: purple; font-weight: bold;">contraintes de temps</B>, nous n'avons pas pu <B style="color: purple; font-weight: bold;">créer toutes les tables nécessaires</B> lors de la <B style="color: purple; font-weight: bold;">première</B> phase, c'est-à-dire lors de l'exploration, du nettoyage et de la transformation des données. Toutefois, nous avons <B style="color: purple; font-weight: bold;">ultérieurement</B> reçu les <B style="color: purple; font-weight: bold;">tables</B> requises afin de <B style="color: purple; font-weight: bold;">réaliser les graphiques</B>.</p>
         <h3 class="sub-heading">Bilan : </h3>
-        <p class="post-text">Ce projet m'a permis d'améliorer plusieurs compétences, notamment le travail d'équipe et l'autonomie. Cependant, il a surtout renforcé ma maîtrise du langage PostgreSQL et du langage de programmation R.</p>
+        <p class="post-text">Ce projet m'a permis d'<B style="color: purple; font-weight: bold;">améliorer</B> plusieurs <B style="color: purple; font-weight: bold;">compétences</B>, notamment le travail d'équipe et l'autonomie. Cependant, il a surtout <B style="color: purple; font-weight: bold;">renforcé</B> ma maîtrise du langage <B style="color: purple; font-weight: bold;">PostgreSQL</B> et du langage de programmation <B style="color: purple; font-weight: bold;">R</B>.</p>
     
     </section>
     
@@ -65,5 +94,25 @@
       </div>
     </section>
       <script src="./javascript/index.js"></script>
+      <script>
+        // Sélectionner tous les boutons contenant des images avec la classe "image-retouche"
+        var buttons = document.querySelectorAll('.image-retouche button');
+        
+        // Parcourir tous les boutons et ajouter des gestionnaires d'événements aux images à l'intérieur
+        buttons.forEach(function(button) {
+          var image = button.querySelector('img');
+        
+          image.addEventListener('mouseover', function() {
+            this.style.transform = 'scale(0.8)'; // Ajustez la valeur pour l'agrandissement souhaité
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        
+          image.addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)'; // Revenir à la taille normale
+            this.style.transition = 'transform 0.3s ease'; // Ajouter une transition fluide
+          });
+        });
+        </script>
+        
     </body>
 </html>
